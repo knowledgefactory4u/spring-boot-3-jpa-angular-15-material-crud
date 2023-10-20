@@ -1,6 +1,6 @@
 # Spring Boot 3 + Angular 15 + Material - Full Stack CRUD Application Example
 
-<img src="[https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihoursbZexd8silQ1FTq49Arr08lyVoxmVL6B5JKqvuGa7jFuk8jTtSTuX1v0ctr2qbVpvZ9h5Ls_xs7rVfWh2vDusQtb7R6tPxlD4QjpHP7cvjVjlC8G0pvIZq4iwRI0bgdTNWbqO8gxSbJFov8gYdXWqtxngLa4WpKMj6eM5t-Kyv_v4QD713r_NFA/s1312/adduserui.png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZhx9i31KGfR1HncQznpSjbulWRvkFOmAay9he-twsOTsrWNeKGg2TNPp_XKQ4RI4Ebg14C3mzWimIk_QJX-swGrSRpWggvvG4dKczCLUniXDEhCxgIQsfyApeWoSTk8GXLS_JYggtXaipUnNcjgc2s3FTlrZoT5r_xqsepaPnoLSVboAfDvWZhelpL985/s1357/spring-boot-angular-material-crud-ui-master.png)" >
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZhx9i31KGfR1HncQznpSjbulWRvkFOmAay9he-twsOTsrWNeKGg2TNPp_XKQ4RI4Ebg14C3mzWimIk_QJX-swGrSRpWggvvG4dKczCLUniXDEhCxgIQsfyApeWoSTk8GXLS_JYggtXaipUnNcjgc2s3FTlrZoT5r_xqsepaPnoLSVboAfDvWZhelpL985/s1357/spring-boot-angular-material-crud-ui-master.png" >
 <h2>Backend Local setup:</h2>
 
 ```
