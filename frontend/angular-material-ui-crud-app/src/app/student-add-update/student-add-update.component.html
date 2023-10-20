@@ -1,0 +1,58 @@
+<div mat-dialog-title>
+    <h1>{{data ? 'Student Data Updation Form': 'Student Data Registration Form'}}</h1>
+</div>
+<form [formGroup]="studentForm" (ngSubmit)="onFormSubmit()">
+<div mat-dialog-content>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput type="text" placeholder="Ex. Sam" formControlName="firstName">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input matInput type="text" placeholder="Ex. Morrison" formControlName="lastName">
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Age</mat-label>
+        <input matInput placeholder="Ex. 12" type="number" formControlName="age">
+      </mat-form-field>
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput type="email" placeholder="Ex. dummy@gmail.com" formControlName="email">
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-radio-group aria-label="Select an option" formControlName="gender">
+            <mat-label><b>Gender</b></mat-label>
+            <mat-radio-button value="male">Male</mat-radio-button>
+            <mat-radio-button value="female">Female</mat-radio-button>
+            <mat-radio-button value="others">Others</mat-radio-button>
+          </mat-radio-group>
+    </div>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Qualification</mat-label>
+        <mat-select formControlName="qualification">
+          <mat-option *ngFor="let value of qualification" [value]="value">{{value}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Grade</mat-label>
+        <mat-select formControlName="grade">
+          <mat-option *ngFor="let value of grade" [value]="value">{{value}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    
+
+</div>
+<div mat-dialog-actions class="dialogAction"> 
+    <button mat-raised-button [mat-dialog-close]="false">Cancel</button>
+    <button mat-raised-button color="accent" type="submit">{{data ? 'Update': 'Save'}}</button>
+</div>
+</form>

@@ -1,0 +1,14 @@
+.dialogAction{
+    padding: 0px 25px 20px;
+    button{
+        flex: 1;
+    }
+}
+.row{
+    display: flex;
+    gap: 12px;
+
+    mat-form-field{
+        width: 100%;
+    }
+}
